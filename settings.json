@@ -1,0 +1,22 @@
+{
+    "config": {
+        "urlList": true,
+        "urlListSlug": "url-list",
+        "url404": "/",
+        "autoAddHttpsPrefix": true
+    },
+    "urls": [
+        {
+            "slug": "/",
+            "url": "github.com/mativizo"
+        },
+        {
+            "slug": [ "netlify-json", "shortener" ],
+            "url": "github.com/mativizo/netlify-json-url-shortener"
+        },
+        {
+            "slug": "netlify-env",
+            "url": "github.com/mativizo/netlify-env-url-shortener"
+        }
+    ]
+}

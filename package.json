@@ -1,0 +1,27 @@
+{
+  "name": "netlify-json-url-shortener",
+  "version": "1.0.0",
+  "description": "A Netlify URL shortener based on json file with urls. Simple to deploy, simple to edit.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mativizo/netlify-json-url-shortener.git"
+  },
+  "keywords": [
+    "netlify",
+    "url-shortener",
+    "json"
+  ],
+  "author": "Mativizo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mativizo/netlify-json-url-shortener/issues"
+  },
+  "homepage": "https://github.com/mativizo/netlify-json-url-shortener#readme",
+  "devDependencies": {
+    "netlify-cli": "^15.0.0"
+  }
+}

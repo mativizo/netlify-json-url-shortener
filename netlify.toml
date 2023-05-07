@@ -1,0 +1,10 @@
+[build.environment]
+  NPM_VERSION = "latest"
+  LANG = "node"
+  TARGET="node"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/redirect?slug=:splat"
+  status = 301
+  force = true
